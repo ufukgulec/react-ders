@@ -1,13 +1,70 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+* {
+    font-family: "DM Sans", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.btn-orange {
+    background-color: #ff7143;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+
+.btn-orange:hover {
+    background-color: #5454D4;
+    color: white;
+}
+
+.btn-blue {
+    background-color: #5454D4;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+
+.btn-blue:hover {
+    background-color: #ff7143;
+    color: white;
+}
+
+.navbar-nav {
+    font-size: 15px !important;
+}
+
+.nav-link {
+    color: #696871 !important;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #19191b !important;
+}
+
+.nav-item {
+    margin-right: 50px;
+}
+
+.active {
+    border-bottom: 2px solid #5454d4;
+}
+
+.navbar-light,
+.bg-light {
+    padding: 30px 0 !important;
+    background-color: white !important;
+}
+
+.navbar-brand {
+    display: flex !important;
+    align-items: center !important;
+}
+
+.hero-text-bold {
+    color: #19191b !important;
+    font-size: 60px;
+}
+
+.hero-text-slim {
+    font-size: 15px;
+    color: #696871 !important;
 }
